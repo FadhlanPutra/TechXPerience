@@ -9,65 +9,12 @@ import News from '@/components/News'
 import { ThemedText } from '@/components/ThemedText'
 import { ThemedView } from '@/components/ThemedView'
 
+import { DataScroll, DataNews } from '@/constants/data/news'
+
 const news = () => {
-    const colorScheme = useColorScheme();
-    const iconColor = colorScheme === 'dark' ? '#ADD8E6' : 'black';
+  const colorScheme = useColorScheme();
+  const iconColor = colorScheme === 'dark' ? '#ADD8E6' : 'black';
 
-  const DataScroll = [
-    {
-      image: require('@/assets/images/Berita.png'),
-      text: 'India ingin sebar developernya ke seluruh dunia, dengan bayaran murah',
-      waktu: '23 Feb 2025'
-    },
-    {
-      image: require('@/assets/images/Berita.png'),
-      text: 'India ingin sebar developernya ke seluruh dunia, dengan bayaran murah',
-      waktu: '23 Feb 2025'
-    },
-    {
-      image: require('@/assets/images/Berita.png'),
-      text: 'India ingin sebar developernya ke seluruh dunia, dengan bayaran murah',
-      waktu: '23 Feb 2025'
-    },
-    {
-      image: require('@/assets/images/Berita.png'),
-      text: 'India ingin sebar developernya ke seluruh dunia, dengan bayaran murah',
-      waktu: '23 Feb 2025'
-    },
-    {
-      image: require('@/assets/images/Berita.png'),
-      text: 'India ingin sebar developernya ke seluruh dunia, dengan bayaran murah',
-      waktu: '23 Feb 2025'
-    },
-  ]
-
-  const DataNews = [
-    {
-      image: require('@/assets/images/Berita.png'),
-      text: 'India ingin sebar developernya ke seluruh dunia, dengan bayaran murah',
-      waktu: '23 Feb 2025'
-    },
-    {
-      image: require('@/assets/images/Berita.png'),
-      text: 'India ingin sebar developernya ke seluruh dunia, dengan bayaran murah',
-      waktu: '23 Feb 2025'
-    },
-    {
-      image: require('@/assets/images/Berita.png'),
-      text: 'India ingin sebar developernya ke seluruh dunia, dengan bayaran murah',
-      waktu: '23 Feb 2025'
-    },
-    {
-      image: require('@/assets/images/Berita.png'),
-      text: 'India ingin sebar developernya ke seluruh dunia, dengan bayaran murah',
-      waktu: '23 Feb 2025'
-    },
-    {
-      image: require('@/assets/images/Berita.png'),
-      text: 'India ingin sebar developernya ke seluruh dunia, dengan bayaran murah',
-      waktu: '23 Feb 2025'
-    },
-  ]
 
   return (
     <GestureHandlerRootView>
@@ -79,7 +26,7 @@ const news = () => {
           </View>
 
           <View style={tw`mt-3 flex`}>
-            <TextInput style={[tw`rounded-lg p-3`, {borderColor: iconColor, borderWidth: 1}]} placeholder='Mau cari berita apa hari ini?' placeholderTextColor={iconColor}/>
+            <TextInput style={[tw`rounded-lg p-3 pl-1`, {borderColor: iconColor, borderWidth: 1}]} placeholder='Mau cari berita apa hari ini?' placeholderTextColor={iconColor}/>
             <AntDesign name='search1' style={tw`absolute right-3 top-2`} size={24} color={iconColor} />
           </View>
 

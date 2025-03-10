@@ -1,0 +1,278 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Main components rendering Index component renders correctly 1`] = `
+<RNCSafeAreaView
+  edges={
+    {
+      "bottom": "additive",
+      "left": "additive",
+      "right": "additive",
+      "top": "additive",
+    }
+  }
+  style={
+    {
+      "bottom": 0,
+      "left": 0,
+      "marginLeft": 28,
+      "marginRight": 28,
+      "position": "absolute",
+      "right": 0,
+    }
+  }
+>
+  <View>
+    <View
+      style={
+        {
+          "alignItems": "center",
+          "marginBottom": 80,
+        }
+      }
+    >
+      <Image
+        resizeMode="cover"
+        source={
+          {
+            "testUri": "../../../assets/images/Logo_Gelap.png",
+          }
+        }
+        style={
+          {
+            "height": 80,
+            "width": 320,
+          }
+        }
+      />
+    </View>
+    <View
+      style={
+        {
+          "marginBottom": 120,
+        }
+      }
+    >
+      <Text
+        style={
+          [
+            {
+              "color": "#11181C",
+            },
+            {
+              "fontSize": 16,
+              "lineHeight": 24,
+            },
+            undefined,
+            undefined,
+            undefined,
+            undefined,
+            {
+              "fontSize": 18,
+              "fontWeight": "bold",
+              "lineHeight": 28,
+              "textAlign": "center",
+            },
+          ]
+        }
+      >
+        Belajar Technology & Dapatkan Pengalamannya
+      </Text>
+      <Text
+        style={
+          [
+            {
+              "color": "#11181C",
+            },
+            {
+              "fontSize": 16,
+              "lineHeight": 24,
+            },
+            undefined,
+            undefined,
+            undefined,
+            undefined,
+            {
+              "color": "#9ca3af",
+              "fontSize": 14,
+              "lineHeight": 20,
+              "textAlign": "center",
+            },
+          ]
+        }
+      >
+        Belajar di Techxperience ini kamu dapat belajar berbagai bidang teknologi seperti pemrograman, desain grafis, dan jaringan.
+      </Text>
+    </View>
+    <View
+      accessibilityState={
+        {
+          "busy": undefined,
+          "checked": undefined,
+          "disabled": undefined,
+          "expanded": undefined,
+          "selected": undefined,
+        }
+      }
+      accessibilityValue={
+        {
+          "max": undefined,
+          "min": undefined,
+          "now": undefined,
+          "text": undefined,
+        }
+      }
+      accessible={true}
+      collapsable={false}
+      focusable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        {
+          "backgroundColor": undefined,
+          "borderColor": "black",
+          "borderRadius": 8,
+          "borderWidth": 1,
+          "marginBottom": 8,
+          "marginTop": 8,
+          "opacity": 1,
+          "paddingBottom": 12,
+          "paddingLeft": 20,
+          "paddingRight": 20,
+          "paddingTop": 12,
+          "width": "100%",
+        }
+      }
+    >
+      <View
+        style={
+          {
+            "alignItems": "center",
+            "flexDirection": "row",
+            "gap": 8,
+            "justifyContent": "center",
+          }
+        }
+      >
+        <Text
+          style={
+            [
+              {
+                "fontSize": 18,
+                "lineHeight": 28,
+                "textAlign": "center",
+              },
+              {
+                "color": "black",
+              },
+            ]
+          }
+        >
+          Mulai Belajar Sekarang
+        </Text>
+      </View>
+    </View>
+    <View
+      accessibilityState={
+        {
+          "busy": undefined,
+          "checked": undefined,
+          "disabled": undefined,
+          "expanded": undefined,
+          "selected": undefined,
+        }
+      }
+      accessibilityValue={
+        {
+          "max": undefined,
+          "min": undefined,
+          "now": undefined,
+          "text": undefined,
+        }
+      }
+      accessible={true}
+      collapsable={false}
+      focusable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        {
+          "backgroundColor": "#4285F4",
+          "borderColor": "#cccccc",
+          "borderRadius": 8,
+          "marginBottom": 8,
+          "marginTop": 8,
+          "opacity": 1,
+          "paddingBottom": 12,
+          "paddingLeft": 20,
+          "paddingRight": 20,
+          "paddingTop": 12,
+          "width": "100%",
+        }
+      }
+    >
+      <View
+        style={
+          {
+            "alignItems": "center",
+            "flexDirection": "row",
+            "gap": 8,
+            "justifyContent": "center",
+          }
+        }
+      >
+        <Text
+          style={
+            [
+              {
+                "fontSize": 18,
+                "lineHeight": 28,
+                "textAlign": "center",
+              },
+              {
+                "color": "black",
+              },
+            ]
+          }
+        >
+          Masuk
+        </Text>
+      </View>
+    </View>
+    <Text
+      style={
+        [
+          {
+            "color": "#11181C",
+          },
+          {
+            "fontSize": 16,
+            "lineHeight": 24,
+          },
+          undefined,
+          undefined,
+          undefined,
+          undefined,
+          {
+            "fontSize": 12,
+            "fontWeight": "300",
+            "lineHeight": 16,
+            "textAlign": "center",
+          },
+        ]
+      }
+    >
+      #Dari 1 Baris Pertama, Sampai 1 Project Pertama
+    </Text>
+  </View>
+</RNCSafeAreaView>
+`;

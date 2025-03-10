@@ -6,17 +6,10 @@ import { ThemedText } from '@/components/ThemedText';
 import tw from 'twrnc'
 import ButtonPrimary from '@/components/ButtonPrimary';
 
+import { OptionSurvey } from '@/constants/data/survey';
+
 const survey = () => {
     const [selectedOption, setSelectedOption] = useState<number | null>(null);
-
-    const OptionSurvey = [
-        {id: 1, title: 'Co-Founder'},
-        {id: 2, title: 'Instagram'},
-        {id: 3, title: 'Tiktok'},
-        {id: 4, title: 'Youtube'},
-        {id: 5, title: 'Website'},
-        {id: 6, title: 'Lainnya'},
-    ]
 
   return (
     <SafeAreaView style={tw`mx-5 mt-10 flex-1`}>

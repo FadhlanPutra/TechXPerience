@@ -23,8 +23,8 @@ const Login = () => {
       </View>
 
       <View style={tw`my-2 mt-3`}>
-        <TextInput style={tw`w-full rounded-lg bg-gray-300 my-2 py-3`} placeholder='Masukan Email' />
-        <TextInput style={tw`w-full rounded-lg bg-gray-300 my-2 py-3`} secureTextEntry placeholder='Masukan Password' />
+        <TextInput style={tw`w-full rounded-lg bg-gray-300 my-2 py-3 pl-1`} placeholder='Masukan Email' />
+        <TextInput style={tw`w-full rounded-lg bg-gray-300 my-2 py-3 pl-1`} secureTextEntry placeholder='Masukan Password' />
       </View>
 
       <View style={tw`flex-row justify-between my-4`}>
