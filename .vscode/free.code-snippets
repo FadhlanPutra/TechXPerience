@@ -1,0 +1,25 @@
+{
+	"Component": {
+		"prefix": "rnnigga",
+		"body": [
+		  "import React from 'react';",
+		  "import { Text, View, Image } from 'react-native';",
+		  "import tw from 'twrnc';",
+		  "",
+		  "const colorScheme = useColorScheme();",
+    	  "const bgColor = colorScheme === 'dark' ? 'white' : 'black';",
+		  "",
+		  "const ${TM_FILENAME_BASE} = () => {",
+		  "  return (",
+		  "    <View>",
+		  "      <Text>${TM_FILENAME_BASE}</Text>",
+		  "    </View>",
+		  "  );",
+		  "};",
+		  "",
+		  "export default ${TM_FILENAME_BASE};",
+		  ""
+		],
+		"description": "ReactNative Component with TWRNC"
+	  },
+}

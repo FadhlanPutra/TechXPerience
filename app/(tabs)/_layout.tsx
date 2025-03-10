@@ -7,6 +7,7 @@ import { IconSymbol } from '@/components/ui/IconSymbol';
 import TabBarBackground from '@/components/ui/TabBarBackground';
 import { Colors } from '@/constants/Colors';
 import { useColorScheme } from '@/hooks/useColorScheme';
+import { AntDesign, Entypo, FontAwesome, MaterialCommunityIcons } from '@expo/vector-icons';
 
 export default function TabLayout() {
   const colorScheme = useColorScheme();
@@ -27,17 +28,38 @@ export default function TabLayout() {
         }),
       }}>
       <Tabs.Screen
-        name="index"
+        name="home"
         options={{
           title: 'Home',
           tabBarIcon: ({ color }) => <IconSymbol size={28} name="house.fill" color={color} />,
         }}
       />
       <Tabs.Screen
-        name="explore"
+        name="akademi"
         options={{
-          title: 'Explore',
-          tabBarIcon: ({ color }) => <IconSymbol size={28} name="paperplane.fill" color={color} />,
+          title: 'Akademi',
+          tabBarIcon: ({ color }) => <AntDesign size={28} name="book" color={color} />,
+        }}
+      />
+      <Tabs.Screen
+        name="reels"
+        options={{
+          title: 'Reels',
+          tabBarIcon: ({ color }) => <MaterialCommunityIcons size={28} name="youtube-tv" color={color} />,
+        }}
+      />
+      <Tabs.Screen
+        name="news"
+        options={{
+          title: 'News',
+          tabBarIcon: ({ color }) => <FontAwesome size={28} name="newspaper-o" color={color} />,
+        }}
+      />
+      <Tabs.Screen
+        name="membership"
+        options={{
+          title: 'Membership',
+          tabBarIcon: ({ color }) => <Entypo size={28} name="credit-card" color={color} />,
         }}
       />
     </Tabs>
