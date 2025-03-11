@@ -5,7 +5,7 @@ import ParallaxScrollView from '@/components/ParallaxScrollView';
 import { ThemedText } from '@/components/ThemedText';
 import { ThemedView } from '@/components/ThemedView';
 import React, { useState } from 'react';
-import { Text, View, Image, ScrollView } from 'react-native';
+import { Text, View, Image, ScrollView, Touchable, TouchableOpacity } from 'react-native';
 import { GestureHandlerRootView } from 'react-native-gesture-handler';
 import { SafeAreaView } from 'react-native-safe-area-context';
 import tw from 'twrnc';
@@ -50,8 +50,12 @@ const membership = () => {
             <ButtonPrimary title='Ikut Kelas' bgBtn='#4285F4' bgText='white' rute='/(tabs)/home' />
 
             <View style={tw`flex-row justify-evenly mt-1`}>
-              <Text style={tw`text-gray-500`}>Terms & Condition</Text>
-              <Text style={tw`text-gray-500`}>Privacy Policy</Text>
+              <TouchableOpacity>
+                <Text style={tw`text-gray-500`}>Terms & Condition</Text>
+              </TouchableOpacity>
+              <TouchableOpacity>
+                <Text style={tw`text-gray-500`}>Privacy Policy</Text>
+              </TouchableOpacity>
             </View>
           </View>
 

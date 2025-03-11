@@ -3,7 +3,7 @@ import { Text, View, Image } from 'react-native';
 import tw from 'twrnc';
 
 
-const Detail = ({image, text, durasi}: any) => {
+const DetailComponent = ({image, text, durasi}: any) => {
   return (
     <View style={tw`mt-5 flex-row gap-3`}>
         <Image source={image} style={tw`w-29 h-29 rounded-md`} />
@@ -15,4 +15,4 @@ const Detail = ({image, text, durasi}: any) => {
   );
 };
 
-export default Detail;
+export default DetailComponent;

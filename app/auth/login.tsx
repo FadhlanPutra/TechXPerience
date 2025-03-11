@@ -41,7 +41,7 @@ const Login = () => {
         </View>
 
         <TouchableOpacity>
-          <ThemedText style={tw`text-sm text-gray-400 text-right`}>Lupa Password?</ThemedText>
+          <ThemedText style={tw`text-sm text-blue-500 text-right`}>Lupa Password?</ThemedText>
         </TouchableOpacity>
       </View>
 

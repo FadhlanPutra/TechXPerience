@@ -29,27 +29,27 @@ export const DataScroll = [
 export const DataNews = [
   {
     image: require('@/assets/images/Berita.png'),
-    text: 'India ingin sebar developernya ke seluruh dunia, dengan bayaran murah',
+    text: 'Inggris sebar developernya keseluruh dunia, dengan bayaran murah',
     waktu: '23 Feb 2025'
   },
   {
     image: require('@/assets/images/Berita.png'),
-    text: 'India ingin sebar developernya ke seluruh dunia, dengan bayaran murah',
+    text: 'Inggris sebar developernya keseluruh dunia, dengan bayaran murah',
     waktu: '23 Feb 2025'
   },
   {
     image: require('@/assets/images/Berita.png'),
-    text: 'India ingin sebar developernya ke seluruh dunia, dengan bayaran murah',
+    text: 'Inggris sebar developernya keseluruh dunia, dengan bayaran murah',
     waktu: '23 Feb 2025'
   },
   {
     image: require('@/assets/images/Berita.png'),
-    text: 'India ingin sebar developernya ke seluruh dunia, dengan bayaran murah',
+    text: 'Inggris sebar developernya keseluruh dunia, dengan bayaran murah',
     waktu: '23 Feb 2025'
   },
   {
     image: require('@/assets/images/Berita.png'),
-    text: 'India ingin sebar developernya ke seluruh dunia, dengan bayaran murah',
+    text: 'Inggris sebar developernya keseluruh dunia, dengan bayaran murah',
     waktu: '23 Feb 2025'
   },
 ]
